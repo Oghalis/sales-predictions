@@ -1,1 +1,1 @@
-# sales-predictions
+Este repositorio ha sido establecido como parte de la entrega correspondiente al Proyecto 1 - Parte 2 del curso de Data Analytics impartido por Coding Dojo.

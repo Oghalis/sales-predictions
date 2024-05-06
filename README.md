@@ -50,7 +50,10 @@ A continuación se detallan las columnas presentes en el dataset:
 
 El dataset presenta valores faltantes en las columnas Item_Weight y Outlet_Size, que serán tratados durante el análisis exploratorio de datos. Además, se observa una variedad de los mismos, incluyendo variables categóricas y numéricas, que serán consideradas tanto durante el mismo análisis exploratorio de datos como en la construcción de modelos de machine learning.
 
+<a id='sec_4'></a>
+# :bar_chart: Análisis Exploratorio de Datos (EDA)
+![descarga (9)](https://github.com/Oghalis/sales-predictions/assets/148403071/470d001f-7737-436a-8c18-34ef383d5b7e)
 
-
+<a id='sec_9'></a>
 ## Disclaimer
 El contenido de este repositorio está destinado únicamente para uso personal y no debe ser copiado o utilizado para fines de cualquier evaluación.

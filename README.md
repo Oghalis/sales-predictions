@@ -53,6 +53,37 @@ El dataset presenta valores faltantes en las columnas Item_Weight y Outlet_Size,
 <a id='sec_4'></a>
 # :bar_chart: Análisis Exploratorio de Datos (EDA)
 ![descarga (9)](https://github.com/Oghalis/sales-predictions/assets/148403071/470d001f-7737-436a-8c18-34ef383d5b7e)
+A continuación, se presentan las conclusiones preliminares basadas en los histogramas generados para cada característica. 
+## Características del Conjunto de Datos
+
+### Item_Weight
+- La mayoría de los productos pesan entre 5 y 12.5 unidades.
+- Existe un pico alrededor del valor 12.5 lo que sugiere que algunos productos son más pesados que otros.
+
+### Item_Fat_Content
+- Más de la mitad de los productos son bajos en grasa, y ninguno de ellos supera el contenido regular de grasa.
+
+### Item_Visibility
+- La mayoría de los productos tienen una visibilidad cercana a 0, es decir no son muy visibles en tiendas.
+
+### Item_Type
+-  Hay más cantidad de frutas y verduras, seguido por productos en presentación de snack.
+
+### Item_MRP (Precio Máximo al Por Menor)
+- Hay picos notables en ciertos rangos de precios, alrededor de 100 y alrededor de 180.
+
+### Outlet_Establishment_Year (Año de Establecimiento de la Tienda)
+- Hubo un pico de creación / adjudicación de tiendas en el año 1985.
+
+### Outlet_Size (Tamaño de la Tienda)
+- La mayoría de las tiendas son pequeñas.
+
+### Outlet_Location_Type (Tipo de Ubicación de la Tienda)
+- **Equilibrio en Ubicación**: Distribución equilibrada con un ligero aumento en Tipo3.
+
+### OUTLET_SALES_TOTALS_TYPE1 y TYPE2
+- **Picos de Ventas**: Picos significativos en valores específicos de ventas.
+
 
 <a id='sec_9'></a>
 ## Disclaimer

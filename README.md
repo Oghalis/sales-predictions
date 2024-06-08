@@ -55,14 +55,14 @@ El dataset presenta valores faltantes en las columnas Item_Weight y Outlet_Size.
 
 <a id='sec_4'></a>
 # :mag_right: Análisis Exploratorio de Datos (EDA)
-![descarga (9)](https://github.com/Oghalis/sales-predictions/assets/148403071/470d001f-7737-436a-8c18-34ef383d5b7e)
+## Histograma del dataset
+![descarga](https://github.com/Oghalis/sales-predictions/assets/148403071/ad1c7448-94b3-4873-9811-a408c5ea5ce1)
 A continuación, se presentan las conclusiones preliminares basadas en los histogramas generados para cada característica. Se ha excluido Item_Identifier ya que es un identificador único para cada artículo y no aporta información sustancial sobre las características o el comportamiento del ítem en sí.
-
 
 | Variable                     | Descripción                                                                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Item_Weight**              | La mayoría de los productos pesan entre 5 y 12.5 unidades. Existe un pico alrededor del valor 12.5, lo que sugiere que algunos productos son más pesados que otros. |
-| **Item_Fat_Content**         | Más de la mitad de los productos son bajos en grasa, y ninguno de ellos supera el contenido regular de grasa.                             |
+| **Item_Fat_Content**         | La mayoría de los productos son bajos en grasa, seguido por productos con nivel regular de grasa.                             |
 | **Item_Visibility**          | La mayoría de los productos tienen una visibilidad cercana a 0, es decir, no son muy visibles en tiendas.                                 |
 | **Item_Type**                | Hay más cantidad de frutas y verduras, seguido por productos en presentación de snack.                                                    |
 | **Item_MRP** | Hay picos notables en ciertos rangos de precios, alrededor de 100 y alrededor de 180.                                                                     |
@@ -74,12 +74,17 @@ A continuación, se presentan las conclusiones preliminares basadas en los histo
 | **Item_Outlet_Sales**    | La mayor cantidad de ventas totales por producto según tipo de tienda se concentra en el rango de 0 a 2000.                                   |
 | **Cantidades_Vendidas**    | La mediana del valor de las unidades totales vendidas por producto y por tienda se sitúa alrededor de 15.                                   |
 
+## Contenido de grasa
+![boxplot](https://github.com/Oghalis/sales-predictions/assets/148403071/77e40124-e5c1-4ab8-bca6-86c1a7bcef40)
+Las tiendas venden en un 64.7% productos bajos en grasa y en un 35.3% productos regulares. Sin embargo, que existan más productos bajos en grasa no es prevalente en las cantidades vendidas. Asimismo, ambos tipos de productos tienen distribuciones de precios similares.
+## RPM y Visibilidad del producto
+![correlacion](https://github.com/Oghalis/sales-predictions/assets/148403071/2137e94f-d95b-4d89-b7b7-500c4573dcd4)
+Los producto con menor RPM (Precio máximo de venta del producto) concentran mayor cantidad de ventas, especialmente en el rango de 100 a 200 u.m. RPM. Por otro lado, los productos con menor visibilidad tienden a tener mayores ventas, por tanto se entiende que son familiares para el cliente y/o son populares.
 
 <a id='sec_5'></a>
 # :bar_chart: Análisis Explicativo de Datos
 
-Además, se observa una variedad de los mismos, incluyendo variables categóricas y numéricas, que serán consideradas tanto durante el mismo análisis exploratorio de datos como en la construcción de modelos de machine learning.
-
+<a id='sec_6'></a>
 
 <a id='sec_10'></a>
 ## Disclaimer

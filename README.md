@@ -83,6 +83,12 @@ Los producto con menor RPM (Precio máximo de venta del producto) concentran may
 
 <a id='sec_5'></a>
 # :bar_chart: Análisis Explicativo de Datos
+## Ventas según año de creación de establecimiento
+![scater](https://github.com/Oghalis/sales-predictions/assets/148403071/373f3d2a-9c07-4d3f-8670-65f4cec7acc9)
+Existe una tienda por año, excepto en 1985, cuando se adjudicaron/crearon 2 tiendas. Las cantidades vendidas por cada una de ellas es bastante similar, excepto por la tienda adjudicada/creada en el año 2009 que se encuentra por debajo del resto, y muy por debajo la tienda creada en 1998, con cantidades y volumenes de venta 10 veces menores al resto.
+
+## Cantidad de ventas por ubicación de tienda y tipo de tienda
+
 
 <a id='sec_6'></a>
 

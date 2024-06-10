@@ -1,6 +1,6 @@
 # Proyecto
 
-Este repositorio contiene los archivos relacionados con el proyecto de tesis.
+Este repositorio contiene los archivos relacionados con el proyecto.
 
 ## Archivos Principales
 

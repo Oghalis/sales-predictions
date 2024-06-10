@@ -12,7 +12,8 @@
 7. [Modelos de Machine Learning](#sec_7)
 8. [Evaluación de Modelos](#sec_8)
 9. [Resultados y Conclusiones](#sec_9)
-10. [Disclaimer](#sec_10)
+10. [Presentación](#sec_10)
+11. [Disclaimer](#sec_11)
 
 <a id='sec_1'></a>
 # :bookmark_tabs: Resumen del Proyecto
@@ -105,24 +106,24 @@ En este proyecto, se implementó y optimizó un modelo de regresión de bosque a
 
 
 <a id='sec_8'></a>
-# :microscope: Evaluación de Modelos
+# :microscope: Resumen de los resultados del modelo
 
-| Métrica                      | Modelo Inicial | Modelo Optimizado | Modelo con PCA |
-|------------------------------|----------------|-------------------|----------------|
-| **Accuracy (train)**         | 0.99977        | 0.99981           | TBD            |
-| **Accuracy (test)**          | 0.99861        | 0.99871           | TBD            |
-| **MSE**                      | 3897.59        | 3610.50           | TBD            |
-| **MAE**                      | 22.94          | 21.81             | TBD            |
-| **RMSE**                     | 62.43          | 60.09             | TBD            |
-| **R² (Coef. de Determinación)** | 0.99861        | 0.99871           | TBD            |
+| Métrica                      | Modelo Inicial | Modelo Optimizado |
+|------------------------------|----------------|-------------------|
+| **Accuracy (train)**         | 0.99977        | 0.99981           |
+| **Accuracy (test)**          | 0.99861        | 0.99871           |
+| **MSE**                      | 3897.59        | 3610.50           |
+| **MAE**                      | 22.94          | 21.81             |
+| **RMSE**                     | 62.43          | 60.09             |
+| **R² (Coef. de Determinación)** | 0.99861        | 0.99871           |
 
-![modelo](https://github.com/Oghalis/sales-predictions/assets/148403071/d77d111f-7f24-427e-bb7b-4f670b5a793a)
+![modelo](https://github.com/Oghalis/sales-predictions/assets/148403071/814bc46f-87ba-4c7d-9af4-1109f38916f2)
 
 
-Se aplicó el modelo de Random Forest con Grid Search a fin de poder mejorarlo. En el análisis de regresión el modelo muestra una fuerte capacidad para predecir los valores en un amplio rango. Sin embargo, es factible a que a valores mñas alto existan algunas discrepación producto de un menor ajuste.
+La optimización del modelo de Random Forest mediante Grid Search ha mejorado la precisión y reducido los errores en la predicción de datos, como demuestra la ligera mejora en las métricas de precisión tanto en los conjuntos de entrenamiento como de prueba, así como una notable reducción en el MSE, MAE, y RMSE. Aunque el coeficiente de determinación (R²) aumentó sutilmente, sugiriendo un mejor ajuste del modelo, persisten algunas discrepancias en la predicción de valores altos, lo que indica la necesidad de futuras investigaciones para afinar aún más el modelo y abordar estos desafíos específicos.
 
-<a id='sec_8'></a>
-# :books: Recomendaciomes y Conclusiones
+<a id='sec_9'></a>
+# :books: Conclusiones y Recomendaciomes
 * El público objetivo de la empresa son clientes habituales orientados a productos mayormente saludables, y que conocen bien a los productos.
 * Los productos bajos en grasa son el 64.7%, sin embargo no predominan en las ventas. Se podria diversificar los productos, aumentado a mas productos regulares, y por otro lado realizar campañas enfocadas a mostrar los beneficios de consumir productos bajos en grasa.
 * Aunque los productos de bajo costo dominan las ventas, explorar el potencial de introducir productos con mayor valor añadido puede ayudar a aumentar los márgenes de ganancia. Para ello es ideal considerar un MRP  menor a 200 como precio de entrada.
@@ -131,5 +132,8 @@ Se aplicó el modelo de Random Forest con Grid Search a fin de poder mejorarlo. 
 * Realizar un análisis más profundo de las tiendas inauguradas en 1998 y 2009 para identificar causas de su bajo rendimiento y desarrollar estrategias de recuperación.
 
 <a id='sec_10'></a>
-## Disclaimer
+## :movie_camera: Presentación
+
+<a id='sec_11'></a>
+## :information_source: Disclaimer
 El contenido de este repositorio está destinado únicamente para uso personal y no debe ser copiado o utilizado para fines de cualquier evaluación.

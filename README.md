@@ -87,10 +87,43 @@ Los producto con menor RPM (Precio máximo de venta del producto) concentran may
 ![scater](https://github.com/Oghalis/sales-predictions/assets/148403071/373f3d2a-9c07-4d3f-8670-65f4cec7acc9)
 Existe una tienda por año, excepto en 1985, cuando se adjudicaron/crearon 2 tiendas. Las cantidades vendidas por cada una de ellas es bastante similar, excepto por la tienda adjudicada/creada en el año 2009 que se encuentra por debajo del resto, y muy por debajo la tienda creada en 1998, con cantidades y volumenes de venta 10 veces menores al resto.
 
-## Cantidad de ventas por ubicación de tienda y tipo de tienda
-
+## Rango de MRP por categoría, ordenado por ventas descendentes
+![boxplot2](https://github.com/Oghalis/sales-predictions/assets/148403071/6eed0d37-ff4a-4878-8132-e4a7baf555de)
+La mayor parte de los productos tiene un MRP entre 100 y 200, siendo las categorías más vendidas: Frutas y Vegetales, Snacks y Artículos para el hogar. Las dos categorias de productos menos vendidos, productos relacionados con el Desayuno y Mariscos, tienen menos variabilidad de precios.
 
 <a id='sec_6'></a>
+# :wrench: Preprocesamiento
+Mediante el uso de tuberías y la librería scikit-learn, se empleó la técnica de SimpleImputer para gestionar los valores faltantes en las características numéricas utilizando la media, y la mediana para las características nominales. Además, se aplicó el escalado estándar mediante StandardScaler a las características numéricas, normalizándolas para que estuvieran centradas alrededor de cero y con una desviación estándar de uno. Por último, se utilizó la codificación One-Hot mediante OneHotEncoder para convertir las características categóricas en vectores binarios.
+
+![Captura](https://github.com/Oghalis/sales-predictions/assets/148403071/d7995a70-0bb9-45b4-bd26-64bb62a96101)
+
+<a id='sec_7'></a>
+# :control_knobs: Modelos de Machine Learning
+
+En este proyecto, se implementó y optimizó un modelo de regresión de bosque aleatorio usando RandomForestRegressor. Tras dividir los datos en conjuntos de entrenamiento y prueba (70/30), el modelo inicial con 100 árboles demostró una alta precisión, que se mejoró aún más mediante la optimización de hiperparámetros con GridSearchCV, aumentando el número de árboles a 500. Además, se exploró la reducción de dimensionalidad mediante PCA, buscando mejorar la eficiencia del modelo sin comprometer su rendimiento. Las métricas clave, como MSE, MAE, y R^2, indicaron una precisión significativa tanto en los datos de entrenamiento como de prueba, aunque se identificó la necesidad de futuras mejoras para reducir los errores de predicción.
+
+
+
+<a id='sec_8'></a>
+# :microscope: Evaluación de Modelos
+
+| Métrica                      | Modelo Inicial | Modelo Optimizado | Modelo con PCA |
+|------------------------------|----------------|-------------------|----------------|
+| **Accuracy (train)**         | 0.99977        | 0.99981           | TBD            |
+| **Accuracy (test)**          | 0.99861        | 0.99871           | TBD            |
+| **MSE**                      | 3897.59        | 3610.50           | TBD            |
+| **MAE**                      | 22.94          | 21.81             | TBD            |
+| **RMSE**                     | 62.43          | 60.09             | TBD            |
+| **R² (Coef. de Determinación)** | 0.99861        | 0.99871           | TBD            |
+
+![modelo](https://github.com/Oghalis/sales-predictions/assets/148403071/d77d111f-7f24-427e-bb7b-4f670b5a793a)
+
+
+Se aplicó el modelo de Random Forest con Grid Search a fin de poder mejorarlo. En el análisis de regresión el modelo muestra una fuerte capacidad para predecir los valores en un amplio rango. Sin embargo, es factible a que a valores mñas alto existan algunas discrepación producto de un menor ajuste.
+
+<a id='sec_8'></a>
+# :books: Resultados y Conclusiones
+
 
 <a id='sec_10'></a>
 ## Disclaimer

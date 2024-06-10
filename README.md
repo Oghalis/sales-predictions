@@ -122,8 +122,13 @@ En este proyecto, se implementó y optimizó un modelo de regresión de bosque a
 Se aplicó el modelo de Random Forest con Grid Search a fin de poder mejorarlo. En el análisis de regresión el modelo muestra una fuerte capacidad para predecir los valores en un amplio rango. Sin embargo, es factible a que a valores mñas alto existan algunas discrepación producto de un menor ajuste.
 
 <a id='sec_8'></a>
-# :books: Resultados y Conclusiones
-
+# :books: Recomendaciomes y Conclusiones
+* El público objetivo de la empresa son clientes habituales orientados a productos mayormente saludables, y que conocen bien a los productos.
+* Los productos bajos en grasa son el 64.7%, sin embargo no predominan en las ventas. Se podria diversificar los productos, aumentado a mas productos regulares, y por otro lado realizar campañas enfocadas a mostrar los beneficios de consumir productos bajos en grasa.
+* Aunque los productos de bajo costo dominan las ventas, explorar el potencial de introducir productos con mayor valor añadido puede ayudar a aumentar los márgenes de ganancia. Para ello es ideal considerar un MRP  menor a 200 como precio de entrada.
+* Se debe aumentar la visibilidad y publicidad de aquellos productos con menores ventas, a fin de poder captar a nuevos clientes.
+* Las categorias que representan menores ventas (tales como Breakfast y Seafood), deben ser ofertadas en parquetes de productos que combinen articulos de alta rotacion de ventas.
+* Realizar un análisis más profundo de las tiendas inauguradas en 1998 y 2009 para identificar causas de su bajo rendimiento y desarrollar estrategias de recuperación.
 
 <a id='sec_10'></a>
 ## Disclaimer

@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: Predicción de Ventas de Productos Alimenticios en Tiendas - Big Mart Sales Prediction
+![Big Mart Sales Prediction](https://via.placeholder.com/800x100/4a90e2/ffffff?text=+Big+Mart+Sales+Prediction)
 ---
 ![SALES PREDICTION](https://github.com/Oghalis/sales-predictions/assets/148403071/dd96e169-d0c0-472d-ba2d-b6b01c5e3424)
 * Este repositorio forma parte de uno de los proyectos presentados durante el curso de Análisis de Datos impartido por Coding Dojo.
